@@ -1,0 +1,40 @@
+body
+	{
+		font-size: 12px;
+		color: gray;
+		font-family: Arial;
+		line-height: 2em;
+	}
+a	
+	{
+		color: #727272;
+		text-decoration: none;	
+	}
+a:hover
+	{
+		text-decoration: underline;
+	}
+.b{
+	font-weight: bolder;
+	font-size: 14px;
+	color: #b9f605;
+	}
+.m{color: white;}
+.b:hover{
+	text-decoration: none;
+	font-size: normal;
+	}
+#c{
+	color: #b9f605;
+	color: #fdb306;
+	font-size: 14px;
+	}
+#c:hover{
+	color: #b9f605;
+	text-decoration: none;
+	}
+ul{
+	list-style-type:none;
+	}
+ul.d{list-style-type:disc;}
+ul.e{list-style-image:url(images/tri.png)}
