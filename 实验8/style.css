@@ -1,0 +1,149 @@
+#head{
+	  height: 205px;
+	  background-image: url(images/bg.gif); 
+	}
+	#bannder{
+		height: 164px;
+		width: 1000px;
+		background-image: url(images/logo.png);
+		background-repeat: no-repeat;
+        background-position:200px 38px; 
+	}
+	#nav{
+		height: 40px;
+		background-image: url(images/nav.jpg);
+		background-position: center;
+	}
+	.a{
+		font-family: "宋体";font-size: 14px;line-height: 40px;color: #fff;
+		text-decoration: none;
+	}
+	.a:hover{
+		color: #f9f603;
+		text-decoration:underline;
+	}
+	.m{color: #f9f603;
+		text-decoration: none; 
+	}
+	.n{background-color: #000;}
+	a{
+		font-family: "宋体";
+		font-size: 14px;
+		text-decoration: none;
+		color: #522a06;
+		line-height: 30px;
+	}
+	a:hover{
+		text-decoration:underline;
+
+	}
+	#content{
+		width: 1000px;
+		margin: 0 auto;
+		clear: both;
+		float: center;
+	}	
+	#content-top{
+		overflow: hidden;
+	}
+	#content-bottom-left{
+		width: 715px;
+		float: left;
+	}
+	#content-bottom-right{
+		float: right;
+		width: 280px;
+		border: 20px;
+	}
+	#news-pic{
+		width: 324px;
+		height: 243px;
+		float: left;
+		padding: 10px;
+		background-image: url(images/news_bg.png);
+		background-repeat: no-repeat;
+	}
+	#news-list{
+		width: 330px;
+		margin-left: 15px;
+		float: left;
+	}
+	li{
+		color: #522a06;
+		list-style-position: outside;  
+	}
+	span{float: right;}
+
+
+	#news-announce{
+		width: 277px;
+		margin-top:5px;
+		float: right;
+		background-repeat: no-repeat;
+	}
+	#li{
+		width: 285px;
+		height: 210px;
+		background-image: url(images/board_bg.png);
+		background-repeat: no-repeat;
+	}
+
+	#acad{
+		width: 340px;
+		height: 54px;
+		float: left;
+		background-image: url(images/academic.png);
+	}
+	#book{
+		width: 340px;
+		height: 54px;
+		margin-left: 25px;
+		float: left;
+		background-image: url(images/book_news.png);
+	}
+	#feng{
+		width: 700px;
+		clear:both;
+		float: left;
+		margin-top: 130px;
+		padding-left: none;
+		background-image: url(images/fengcai_bg1.png);
+		background-repeat: no-repeat;
+	}
+	#feng1{
+		width: 700px;
+		height: 176px;
+		padding: 20px;
+		margin-top: 20px;
+		margin-left: 20px;
+		float: left;
+		background-image: url(images/fengcai_bg2.png);
+		background-repeat: no-repeat;
+	}
+	#f1{
+		float: left;
+		margin-right: 7px;
+	}
+	#b2{
+		width: 285px;
+		height: 450px;
+		padding-top:20px;
+		background-image: url(images/show_bg.png);
+		background-repeat: no-repeat;
+	}
+	#k{
+		color: red;
+		font-weight: bold;
+	}
+	#last{
+		padding-left:7px;
+		padding-right: 7px;
+		line-height: 20px; 
+	}
+	#bottom{
+		height: 105px;
+		background-image:url(images/foot.gif);
+		background-position: center;
+		clear: both;
+	}
+	#b{color: #522a06}
