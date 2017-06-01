@@ -1,0 +1,125 @@
+#head{
+	  height: 205px;
+	  background-image: url(images/bg.gif); 
+	}
+	#bannder{
+		height: 164px;
+		width: 1000px;
+		background-image: url(images/logo.png);
+		background-repeat: no-repeat;
+        background-position:200px 38px; 
+	}
+	#nav{
+		height: 40px;
+		background-image: url(images/nav.jpg);
+		background-position: center;
+	}
+	.a{
+		font-family: "宋体";font-size: 14px;line-height: 40px;color: #fff;
+		text-decoration: none;
+	}
+	.a:hover{
+		color: #f9f603;
+		text-decoration:underline;
+	}
+	.or{color: #f9f603;
+		text-decoration: none; 
+	}
+	.ser{background-color: #000;}
+	a{
+		font-family: "宋体";
+		font-size: 12px;
+		text-decoration: none;
+		color: #522a06;
+		line-height: 30px;
+	}
+	a:hover{
+		text-decoration:underline;
+	}
+	#text{
+		margin:0 auto;
+		width: 1050px;
+	}
+	#m{		
+		width: 250px;
+		float: left;
+		padding: 0px;
+		margin-left:40px;
+	}
+	#k{
+		width: 730px;
+		float: right;
+	
+
+	}
+	#m1{
+		width: 240px;
+		height: 250px;
+		background-image: url(images/bg.png);
+		text-align: center;
+		margin-bottom: 25px;
+		border: 1px solid #E9C3A6
+	}
+	#li{
+		list-style: none;
+		line-height: 33px;
+		font-size: 15px;
+		color: gray;
+		font-weight: bold
+	}
+	#id{
+		background-image: url(images/menubg.gif);
+		background-repeat: no-repeat;
+		color: #BC1717;
+	}
+	#ul{
+		margin:0 auto;
+		padding-right: 25px;
+	}
+	#m2{
+		width: 240px;
+		height: 190px;
+		background-image: url(images/bg.png);	
+		text-align: center;
+		padding-top: 5px;	
+		border: 1px solid #E9C3A6;
+		margin-bottom: 25px;
+	}
+	#ul2{
+		list-style: none;
+		line-height: 33px;
+		font-size: 15px;
+	}
+	#li2{
+		padding-right: 30px;
+	}
+	#m3{
+		width: 240px;
+		height: 100px;
+	}
+	#k1{
+		width: 720px;
+		height: 40px;
+		margin-top: 28px;
+	}
+	li{		
+		line-height: 33px;
+		font-size: 15px;
+	}
+	span{
+		float: right;
+		line-height: 33px;
+		font-size: 15px;
+		margin-right:20px;
+	}
+	#k3{
+		width: 720;
+		height: 30px;
+	}
+	#bottom{
+		height: 105px;
+		background-image:url(images/foot.gif);
+		background-position: center;
+		clear: both;
+	}
+	#b{color: #522a06}
