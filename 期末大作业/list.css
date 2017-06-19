@@ -1,0 +1,101 @@
+#header
+{
+	height: 205px;
+	width: 100%;
+	float: left;
+	background-image: url(image/guilin.jpg);
+}
+#banner
+{
+	background-image: url(image/logo.jpg);
+	margin-left: 200px;
+	margin-top: 30px;
+	margin-bottom: 35px;
+	background-repeat: no-repeat;
+	height: 100px;
+	
+}
+#nav
+{
+	float: left;
+	height: 40px;
+	width: 1333px;
+	background-image: url(image/nav.jpg);
+	background-repeat: repeat-x;
+}
+.a
+{
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 40px;
+	color: #000;
+	text-decoration: none;
+}
+#b
+{
+	margin-top: 30px
+	clear: both;
+	padding-top: 30px;
+	margin-left: 150px;
+	width: 1033px;
+	
+	float: left;
+	font: : bold 36px '微软雅黑';
+}
+#b1
+{
+	text-align: center; 
+	border: 1px solid black;
+	width: 250px;
+	height: 210px;
+	float: left;
+}
+h1{text-align: center;}
+h5{text-indent: 2em;
+	text-align: center;}
+#b2
+{
+	margin-top: 1px;
+	width: 754px;
+	height: 210px;
+	float: left;
+	font: : bold 36px '微软雅黑'; 
+	border: 1px solid black;
+	text-indent: 2em;
+	margin-left: 5px;
+}
+#b21
+{
+	width: 200px;
+	float: left;
+}
+.b21{
+	float: left;
+}
+#b22
+{
+	width: 550px;
+	float: left;
+}
+#b3
+{
+	float: left;
+	width: 1011px;
+	clear: both;
+	margin-right: 150px;
+	margin-top: 5px;
+	border: 1px solid black;
+	text-indent: 2em;
+}
+#bottom
+{
+	background-color: #c0c0c0;
+	height: 105px;
+	background-position: center;
+	clear: both;
+}
+.m
+{
+	color: #522a06;
+	text-decoration: none;
+}
