@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css" src="js.css">
+	*{
+		padding: 0px;
+		margin: 1px;
+	}
+	#showData{
+		margin: auto;
+		margin-top: 30px;
+		border: solid 6px #23713D;
+		border-spacing: 0px;
+	}
+	#display{
+		width: 100%;
+		height: 30px;
+		border-bottom: solid 4px #23714D;
+		font-weight: bold;
+		color: #193D83;
+		font-family:  SimHei;
+		padding-left: 2px;
+	}
+	.text{
+		cursor: pointer;
+        width: 80px;
+        height: 25px;
+        border: solid 1px #FFFFFF;
+        background: #2371d3;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+        font-family: SimHei;
+	}
+	#equal{
+            cursor: pointer;
+            width: 40px;
+            height: 100%;
+            background: #2371d3;
+            border: solid 1px #FFFFFF;
+            color: #FFFFFF;
+            text-align: center;
+            font-weight: bold;
+            font-family: SimHei;
+        }
+    .text:hover {
+            background: #EA6F30;
+        }
+        
+   #equal:hover {
+            background: #EA6F30;
+        }
+	</style>
+	<script type="text/javascript">
+	var str="";
+	var calrestr=""
+	function showData(){
+		var a=event.srcElement.innerText;
+		if(a == "=" ||a == "c"){
+			return;
+		}
+		str += event.srcElement.innerText;
+		display.innerText = str;
+
+	}
+	function resultcalculate(){
+		calrestr = eval(str);
+		if(str ==  ""){
+			calrestr = "0";
+		}
+		display.innerText = calrestr;
+	}
+	function del(){
+		str ="";
+		display.innerText = "0";
+	}
+	</script>
+</head>
+<body>
+	<table border="1" id="showData" onClick="showData()">
+		<tr>
+			<td colspan="3" id="display" align="right"></td>
+			<td class="text" id="delete" onClick="del()">c</td>
+		</tr>
+		<tr>
+			<td class="text" >1</td>
+			<td class="text" >2</td>
+			<td class="text">3</td>
+			<td class="text">+</td>
+		</tr>
+		<tr>
+			<td class="text">4</td>
+			<td class="text">5</td>
+			<td class="text">6</td>
+			<td class="text">-</td>
+		</tr>
+		<tr>
+			<td class="text">7</td>
+			<td class="text">8</td>
+			<td class="text">9</td>
+			<td class="text">*</td>
+		</tr>
+		<tr>
+			<td class="text">0</td>
+			<td class="text">.</td>
+			<td class="text" id="equal" onClick="resultcalculate()">=</td>
+			<td class="text">/</td>
+		</tr>
+	</table>
+</body>
+</html>
