@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>商品评分</title>
+  <script type="text/javascript">
+  //shixiantupiandetihuan
+    window.onload = function(){
+       
+
+        // document.getElementById("ping").onmouseover=function(){
+        //   for (var i = 0; i < 2; i++) {
+        //     img[i].src="images/star1.png";
+        //   }
+          
+        // }
+
+        document.getElementById("ping").onmousemove=function(){
+          this.src="images/star1.png";
+        
+        }
+
+        document.getElementById("ping").onmouseout=function(){
+        // document.getElementById("ping")=this
+        this.src="images/star0.png";
+      }
+    }
+    
+    
+  </script>
+  <style type="text/css">
+  img{
+    cursor: pointer;
+  }
+  </style>
+</head>
+<body>
+  <div>宝贝与描述相符（打分匿名）</div>
+  <div >
+    <img src="images/star0.png" id="ping">
+    <img src="images/star0.png" id="ping">
+    <img src="images/star0.png" id="ping">
+    <img src="images/star0.png" id="ping">
+    <img src="images/star0.png" id="ping">
+  </div>
+  <div>
+    <textarea name="form"></textarea>
+  </div>
+</body>
+</html>
