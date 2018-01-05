@@ -1,0 +1,78 @@
+#header
+{
+	height: 205px;
+	width: 100%;
+	float: left;
+	background-image: url(image/guilin.jpg);
+}
+#banner
+{
+	background-image: url(image/logo.jpg);
+	margin-left: 200px;
+	margin-top: 30px;
+	margin-bottom: 35px;
+	background-repeat: no-repeat;
+	height: 100px;
+	
+}
+#nav
+{
+	float: left;
+	height: 40px;
+	width: 1333px;
+	background-image: url(image/nav.jpg);
+	background-repeat: repeat-x;
+}
+.a
+{
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 40px;
+	color: #000;
+	text-decoration: none;
+}
+#b
+{
+	margin-top: 30px
+	clear: both;
+	margin-left: 150px;
+	width: 1033px;
+	float: left;
+	font: : bold 36px '微软雅黑';
+}
+h1{text-align: center;}
+h2{text-align: center;}
+p{text-indent: 2em;}
+#b1
+{
+	width: 600px;
+	float: left;
+}
+#b2
+{
+	margin-top: 15px;
+	width: 405px;
+	float: left;
+	font: : bold 36px '微软雅黑'; 
+	border: 1px dashed black;
+	text-align: center;	
+}
+#b3{
+	float: left;
+}
+.c
+{
+	text-decoration: none;
+}
+#bottom
+{
+	background-color: #c0c0c0;
+	height: 105px;
+	background-position: center;
+	clear: both;
+}
+.m
+{
+	color: #522a06;
+	text-decoration: none;
+}
